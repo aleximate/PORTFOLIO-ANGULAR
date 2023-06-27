@@ -10,9 +10,12 @@
 }
 .container-2{
   width: 90%;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  justify-content: center;
   margin: 70px auto ;
+}
+.container-3,.container-4{
+  width: 550px;
 }
 h1{
   color: white;
@@ -41,4 +44,15 @@ p{
   text-align: left;
   white-space: pre-wrap;
   font-size: 20px;
+}
+img{
+  margin: 30px;
+}
+button{
+  margin: 40px 0;
+  border-style: none;
+  background-color: #865DFF;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
 }
