@@ -1,5 +1,6 @@
 .container{
-  margin-top: 200px;
+  padding-top: 200px;
+  background-color: black;
 }
 .container-1{
   display: flex;
@@ -12,7 +13,7 @@
   width: 90%;
   display: flex;
   justify-content: center;
-  margin: 70px auto ;
+  margin: auto ;
 }
 .container-3,.container-4{
   width: 550px;
@@ -42,7 +43,6 @@ p{
   margin-top: 30px;
   margin-right: 80px;
   text-align: left;
-  white-space: pre-wrap;
   font-size: 20px;
 }
 img{
