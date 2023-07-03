@@ -36,20 +36,60 @@ p{
 }
 .container-3{
   width: 100%;
+  background-color: black;
 }
 form{
   width: 70%;
-  background-color: #141414;
+  background-color:#252525;
   margin: auto;
+  margin-bottom: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.container-4{
+  width: 90%;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  margin-top: 50px;
 }
-input,textarea{
+input{
   margin: auto;
-  width: 70%;
-  height: 40px;
+  margin-bottom: 40px;
+  width: 95%;
+  height: 60px;
+  background-color: #C1C1C1;
+  border-radius: 5px;
+  border-style: none;
+}
+input::placeholder{
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+textarea::placeholder{
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+textarea{
+  width: 95%;
+  margin: auto;
+  background-color: #C1C1C1;
+  border-radius: 5px;
 }
 label{
-  margin-left: 40px;
+  color: white;
+  margin-bottom: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+  margin: 20px;
+  padding: 20px 70px;
+  background-color: #865DFF;
+  border-style: none;
+  color: white;
+  border-radius: 10px;
 }

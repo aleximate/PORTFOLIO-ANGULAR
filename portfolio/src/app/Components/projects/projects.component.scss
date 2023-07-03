@@ -1,0 +1,36 @@
+.container{
+  padding-top: 200px;
+  background-color: black;
+}
+.container-1{
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 40px auto;
+}
+h1{
+  color: white;
+  font-size: 90px;
+}
+p{
+  color: white;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.line{
+  margin: 20px 0;
+  background-color: #865DFF;
+  border-radius: 15px;
+  height: 5px;
+  width: 30px;
+}
