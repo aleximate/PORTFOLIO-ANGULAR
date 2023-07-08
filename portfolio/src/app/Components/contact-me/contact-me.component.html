@@ -12,11 +12,11 @@
       <form [formGroup]="contactForm">
         <div class="container-4">
           <label>NAME</label>
-          <input type="text" placeholder="Enter your full name" />
+          <input type="text" placeholder="Enter your full name" formControlName="name" />
           <label>EMAIL</label>
-          <input type="text" placeholder="Enter your email" />
+          <input type="text" placeholder="Enter your email" formControlName="email"/>
           <label>MESSAGE</label>
-          <textarea name="textarea" rows="20" placeholder="Enter your MESSAGE"></textarea>
+          <textarea name="textarea" rows="20" placeholder="Enter your MESSAGE" formControlName="message"></textarea>
         </div>
         <button>SUBMIT</button>
       </form>
