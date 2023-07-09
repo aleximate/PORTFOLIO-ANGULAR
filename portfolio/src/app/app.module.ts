@@ -10,6 +10,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { ContactMeComponent } from './Components/contact-me/contact-me.component';
 import { ProjectsComponent } from './Components/projects/projects.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

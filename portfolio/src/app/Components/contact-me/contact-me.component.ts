@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
@@ -7,19 +8,4 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./contact-me.component.scss']
 })
 export class ContactMeComponent {
-
-  contactForm!:FormGroup;
-
-  constructor(){
-    this.contactForm=new FormGroup({
-      name:new FormControl('',Validators.required),
-      email:new FormControl('',[Validators.required,Validators.email]),
-      message: new FormControl('',Validators.required)
-    })
-  }
-
-  sendEmail(){
-
-  }
-
 }

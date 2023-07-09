@@ -9,16 +9,16 @@
       </p>
     </div>
     <div class="container-3">
-      <form [formGroup]="contactForm">
+      <form action="https://formsubmit.co/f9838264488b4982177bc00bd0a423de" method="POST">
         <div class="container-4">
           <label>NAME</label>
-          <input type="text" placeholder="Enter your full name" formControlName="name" />
+          <input type="text" placeholder="Enter your full name" name="name" />
           <label>EMAIL</label>
-          <input type="text" placeholder="Enter your email" formControlName="email"/>
+          <input type="email" placeholder="Enter your email" name="email"/>
           <label>MESSAGE</label>
           <textarea name="textarea" rows="20" placeholder="Enter your MESSAGE" formControlName="message"></textarea>
         </div>
-        <button>SUBMIT</button>
+        <input class="submit" type="submit" value="SUBMIT">
       </form>
     </div>
   </div>
