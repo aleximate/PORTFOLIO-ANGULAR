@@ -15,8 +15,5 @@ toHome(){
 toProjects(){
   document.getElementById("projects")?.scrollIntoView({behavior:"smooth"});
 }
-toContact(){
-  document.getElementById("contact")?.scrollIntoView({behavior:"smooth"});
-}
 
 }
