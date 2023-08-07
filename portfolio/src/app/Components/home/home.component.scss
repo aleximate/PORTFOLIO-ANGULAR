@@ -29,5 +29,7 @@ p{
 }
 img{
   width: 350px;
+  mask-image: linear-gradient(to bottom, transparent, black, transparent);
+  mask-mode: alpha;
 }
 
